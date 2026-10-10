@@ -1,0 +1,96 @@
+-- Template File to Program echip 180
+-- Contains a prolog / pixel section / postlog
+--
+-- prolog, do not modify
+--
+reg_value 0x1A340 -- Reset
+reg_value 0x20001 -- Set Token
+reg_value 0x1B006 -- Control
+reg_value 0x1B278
+reg_value 0x1B308
+reg_value 0x1B00A -- BiasK1
+reg_value 0x1B240
+reg_value 0x1B308
+reg_value 0x1B00A -- BiasK2
+reg_value 0x1B241
+reg_value 0x1B308
+reg_value 0x1B00F -- BiasLVM
+reg_value 0x1B242
+reg_value 0x1B308
+reg_value 0x1B00F -- BiasLVP
+reg_value 0x1B24c
+reg_value 0x1B308
+reg_value 0x1B010 -- BiasLVDSRx
+reg_value 0x1B243
+reg_value 0x1B308
+reg_value 0x1B001 -- BiasPlate
+reg_value 0x1B244
+reg_value 0x1B308
+reg_value 0x1B00A -- BiasK3
+reg_value 0x1B245
+reg_value 0x1B308
+reg_value 0x1B00A -- BiasAmp
+reg_value 0x1B246
+reg_value 0x1B308
+reg_value 0x1B008 -- BiasCMP
+reg_value 0x1B247
+reg_value 0x1B308
+reg_value 0x1B008 -- BiasBuf
+reg_value 0x1B248
+reg_value 0x1B308
+reg_value 0x1B01F -- BiasSpare
+reg_value 0x1B249
+reg_value 0x1B308
+reg_value 0x1B01F -- BiasColDrive
+reg_value 0x1B24a
+reg_value 0x1B308
+reg_value 0x1B018 -- BiasLVDSTx
+reg_value 0x1B24b
+reg_value 0x1B308
+reg_value 0x1B001 -- BiasVC
+reg_value 0x1B24d
+reg_value 0x1B308
+reg_value 0x1B00C -- BiasAAF
+reg_value 0x1B24e
+reg_value 0x1B308
+reg_value 0x1B006-- BiasOff
+reg_value 0x1B24f
+reg_value 0x1B308
+reg_value 0x1B010 -- MainDAC
+reg_value 0x1B250
+reg_value 0x1B308
+reg_value 0x1B001 -- DAC options
+reg_value 0x1B251
+reg_value 0x1B308
+reg_value 0x1B000 -- Phi1a
+reg_value 0x1B270
+reg_value 0x1B308
+reg_value 0x1B000 -- Phi1b
+reg_value 0x1B271
+reg_value 0x1B308
+reg_value 0x1B000 -- Phi1c
+reg_value 0x1B272
+reg_value 0x1B308
+reg_value 0x1B078 -- Phi1d
+reg_value 0x1B273
+reg_value 0x1B308
+reg_value 0x1B000 -- Phi2a
+reg_value 0x1B274
+reg_value 0x1B308
+reg_value 0x1B078 -- Phi2b
+reg_value 0x1B275
+reg_value 0x1B308
+reg_value 0x1B000 -- Phi2c
+reg_value 0x1B276
+reg_value 0x1B308
+reg_value 0x1B000 -- Phi2d
+reg_value 0x1B277
+reg_value 0x1B308
+--
+-- pixel section: add pixel configuration here
+--
+--
+-- postlog, do not modify
+--
+reg_value 0x1A304 -- Sync
+reg_value 0x1A302 -- GO
