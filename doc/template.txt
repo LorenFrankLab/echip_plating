@@ -23,7 +23,7 @@ reg_value 0x1B308
 reg_value 0x1B010 -- BiasLVDSRx
 reg_value 0x1B243
 reg_value 0x1B308
-reg_value 0x1B001 -- BiasPlate
+reg_value 0x1B000 -- BiasPlate: SET TO ZERO
 reg_value 0x1B244
 reg_value 0x1B308
 reg_value 0x1B00A -- BiasK3
